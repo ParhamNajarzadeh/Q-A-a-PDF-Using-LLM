@@ -2,7 +2,8 @@ pysqlite3-binary
 langchain
 openai
 tiktoken
-chromadb
+torch==2.0.1
+chromadb==0.4.2
 sentence-transformers
 langchain-community
 cohere
