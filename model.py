@@ -9,6 +9,8 @@ import zipfile
 import json
 
 from preprocessing import CHOOSE_P
+import sys
+sys.modules["sqlite3"] = __import__("pysqlite3")
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
